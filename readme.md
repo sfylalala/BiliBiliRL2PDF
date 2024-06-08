@@ -25,11 +25,14 @@
 ## 使用方式
 1. 配置ChromeDriver路径
     修改代码中的 chrome_driver_path 变量，设置为您的 ChromeDriver 文件的路径。
+   
 2. 设置你要爬取的专栏ID
     修改代码中的 rl_id 变量，设置为您想要爬取的Bilibili图文专栏的ID。
+   
 3. 执行程序
     ```
         python rl2html.py
     ```
+    
 4. 用浏览器打开保存的html文件
     + 使用浏览器的打印功能将其转换为PDF文件.
